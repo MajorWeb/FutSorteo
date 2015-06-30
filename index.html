@@ -1,13 +1,108 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>Ofertas major</title>
-	<link rel="stylesheet" href="css/estilos.css">
+	<meta name="description" content="">
+	<link type="text"rel="stylesheet" href="css/estilos.css">
+	<link type="text"rel="stylesheet" href="css/fonts.css">
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<title>Inicio</title>
 </head>
 <body>
-	<h1>Promociones</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet suscipit animi est dignissimos dolores eius voluptates consectetur eligendi. Voluptate, vero saepe animi recusandae. Harum iste asperiores, recusandae nemo quibusdam qui?</p>
+	<header>
+		<div class="menu-bar">
+			<a href="#"class="btn-menu"><span class="icon-menu"></span>Menu</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html"><span class="icon-home3"></span>Inicio</a></li>
+			<!-- 	<li><a href="integrantes.html"><span class="icon-users"></span>Integrantes</a></li>
+				<li><a href="#"><span class="icon-bullhorn"></span>Eventos</a></li> -->
+				<li><a href="#"><span class="icon-file-text"></span>Acerca de</a></li>
+				<li><a href="#"><span class="icon-mail"></span>Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="main-container">
+		<div class="slide-container">
+			<div class="slides">
+				<img src="img/slider/1.jpg" alt="">
+				<img src="img/slider/2.jpg" alt="">
+				<img src="img/slider/3.jpg" alt="">
+			</div>
+		</div>
+		<h1>Futbol Fans.</h1>
+		<h2>2015-2016</h2>
+		<section class="productos">
+		<article class="producto">
+			<figure class="producto-img">
+				<img src="" alt="">
+			</figure>
+			<p>Poster Personalizado </p>
+			<button class="btn-small">Comprar</button>
+		</article>
+		<article class="producto">
+			<figure class="producto-img">
+				<img src="" alt="">
+			</figure>
+			<p>Calendario de Jugador con dedicatoria </p>
+			<button class="btn-small">Comprar</button>
+
+		</article>
+		<article class="producto">
+			<figure class="producto-img">
+				<img src="" alt="">
+			</figure>
+			<p>Cuaderno Personalizado</p>
+			<button class="btn-small">Comprar</button>
+		</article>
+		</section>
+		
+	</section>
+	<footer>
+		<section class="footer-container">
+			<article class="footer-container-item1">
+			 <a href="#"><span class="icon-power"></span>Patrocinadores:</a> 
+				<ul>
+					<li>Patrocinador 1</li>
+					<li>Patrocinador 2</li>
+					<li>Patrocinador 3</li>
+				</ul>
+			</article>
+			<article class="footer-container-item2">
+				<figure class="footer-img"><img src="img/logo.png" alt="" width="115" height="115">
+
+				</figure>
+			</article>
+			<article class="footer-container-item3"></article>
+		</section>
+	</footer>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/jquery.slides.js"></script>
+	 <script>
+	    $(function(){
+  			$(".slides").slidesjs({
+		    play: {
+		      active: true,
+		        // [boolean] Generate the play and stop buttons.
+		        // You cannot use your own buttons. Sorry.
+		      effect: "fade",
+		        // [string] Can be either "slide" or "fade".
+		      interval: 4000,
+		        // [number] Time spent on each slide in milliseconds.
+		      auto: true,
+		        // [boolean] Start playing the slideshow on load.
+		      swap: true,
+		        // [boolean] show/hide stop and play buttons
+		      pauseOnHover: false,
+		        // [boolean] pause a playing slideshow on hover
+		      restartDelay: 2500
+		        // [number] restart delay on inactive slideshow
+		    	}
+  			});
+		});
+ 	 </script>
 </body>
 </html>
