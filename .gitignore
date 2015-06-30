@@ -1,5 +1,9 @@
-#Stylus
-stylus/
+# Podemos especificar archivos individuales
+.DS_Store
 
-#PREPROS
-prepros.cfg
+# O usar comodines
+*~
+*.cfg
+
+# También es posible ignorar todos los subdirectorios y archivos en un directorio determinado
+stylus/**/* 
