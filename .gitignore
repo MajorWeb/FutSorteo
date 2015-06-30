@@ -1,10 +1,10 @@
-# Podemos especificar archivos individuales
+# archivos individuales
 .DS_Store
 
-# O usar comodines
+# Extensiones
 *~
 *.cfg
 
-# También es posible ignorar todos los subdirectorios y archivos en un directorio determinado
+# Carpetas
 /stylus
 
