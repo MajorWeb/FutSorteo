@@ -1,27 +1,15 @@
 import "normalize.styl",
 import "fonts.css",
-.btn-small {
-  color: #fff;
-  border-radius: 12px;
-  width: 100px;
-  background-color: #009fe3;
+body {
+  font-family: 'Varela Round', sans-serif;
 }
-.border-bot {
-  border-bottom: 1px solid #ccc;
-}
-.border-top {
-  border-top: 1px solid #ccc;
-}
-.border-right {
-  border-right: 1px solid #ccc;
-}
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/*---------BASE PRINCIPIAL HEADER Y FOOTER--------*/
 body {
   font-family: 'Varela Round', sans-serif;
 }
 header {
   width: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 header nav {
   width: 100%;
@@ -48,13 +36,42 @@ header nav ul li span {
   margin-right: 10px;
 }
 header nav ul li a:hover {
-  background: #83c931;
+  background: #0d7f2d;
 }
 section {
   padding: 20px;
 }
 footer {
   background: #e6e6e6;
+  width: 101.7%;
+  margin-left: -10px;
+}
+.footer-container-item1 {
+  border-bottom: 1px solid #d3d3d3;
+  text-align: center;
+}
+.footer-container-item1 a {
+  text-decoration: none;
+  color: #000;
+}
+.footer-container-item1 ul li {
+  list-style: none;
+}
+.footer-container-item1 a:hover {
+  text-decoration: none;
+  color: #0d5c2d;
+}
+.icon-power {
+  margin-right: 15px;
+}
+.footer-container-item2 {
+  border-bottom: 1px solid #d3d3d3;
+}
+.footer-container-item2 p {
+  text-align: center;
+}
+.footer-container-item3 p {
+  text-align: center;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
 /*---------ESTILOS INDEX.HTML----------------------------------*/
@@ -111,6 +128,7 @@ h2 {
 }
 .producto {
   margin: 0 auto;
+  margin-bottom: 15px;
   width: 250px;
   height: 250px;
   border-radius: 15px;
@@ -119,6 +137,31 @@ h2 {
 .producto p {
   text-align: center;
 }
+/*---------CLASES UTILITARIAS----------*/
+.btn-small {
+  color: #fff;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+  border-style: none;
+  width: 100px;
+  height: 30px;
+  background-color: #009fe3;
+}
+.btn-small:hover {
+  border-radius: 0 12px;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+.border-bot {
+  border-bottom: 1px solid #ccc;
+}
+.border-top {
+  border-top: 1px solid #ccc;
+}
+.border-right {
+  border-right: 1px solid #ccc;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*<<<<<<<<<<<<<<<<<<<<<<<<DISPOSITIVOS MOVILES>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
 @media screen and (max-width: 700px) {
   header nav {
@@ -154,27 +197,6 @@ h2 {
   .menu-bar span {
     float: right;
     font-size: 40px;
-  }
-  .footer-container-item1 {
-    border-bottom: 1px solid #d3d3d3;
-    text-align: center;
-  }
-  .footer-container-item1 a {
-    text-decoration: none;
-    color: #000;
-  }
-  .footer-container-item1 ul li {
-    list-style: none;
-  }
-  .footer-container-item1 a:hover {
-    text-decoration: none;
-    color: #0d5c2d;
-  }
-  .icon-power {
-    margin-right: 15px;
-  }
-  .footer-container-item2 {
-    border-bottom: 1px solid #d3d3d3;
   }
   .footer-img {
     border-style: solid;
