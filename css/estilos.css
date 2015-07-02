@@ -67,11 +67,21 @@ footer {
 .footer-container-item2 {
   border-bottom: 1px solid #d3d3d3;
 }
+.footer-img img {
+  background: #fff;
+  margin: 15px auto;
+  display: block;
+  border-radius: 45%;
+  border: 1px solid #6fb52b;
+}
 .footer-container-item2 p {
   text-align: center;
 }
-.footer-container-item3 p {
+.footer-container-item3 ul {
   text-align: center;
+}
+.footer-container-item3 li {
+  list-style: none;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><*/
 /*---------ESTILOS INDEX.HTML----------------------------------*/
@@ -260,20 +270,6 @@ h3 {
   .menu-bar span {
     float: right;
     font-size: 40px;
-  }
-  .footer-img {
-    border-style: solid;
-    width: 150px;
-    height: 150px;
-    margin: 15px auto;
-    border: 1px solid #0d5c2d;
-    border-radius: 30%;
-  }
-  .footer-img img {
-    margin: 15px auto;
-    display: block;
-    border-radius: 35%;
-    border: 1px solid #6fb52b;
   }
   .slidesjs-pagination {
     display: none;
